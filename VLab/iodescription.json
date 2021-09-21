@@ -1,6 +1,19 @@
-{
 
-  "outputs": [
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3ff",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download the configuration file",
+      "name": "Configuration file",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "configuration/configuration.conf"
+ }
+  ],
+ "outputs": [
     {
       "id": "DataObject_0n95v5p",
       "outputType": "individual",
