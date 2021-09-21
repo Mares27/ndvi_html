@@ -1,0 +1,14 @@
+{
+
+  "outputs": [
+    {
+      "id": "DataObject_0n95v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "DNP_indices",
+      "name": "DNP_indices",
+      "valueSchema": "url",
+      "target": "DNP_indices.html"
+ }
+  ]
+}
