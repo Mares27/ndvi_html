@@ -1,3 +1,14 @@
+
+import configparser
+
+configfile = 'DNP_e_shape_configuration.cfg'
+config = configparser.ConfigParser(interpolation=None) 
+config.read(configfile)  
+start   = config['GENERAL'].get('start', ".")   
+end     = config['GENERAL'].get('end', ".")   
+
+
+
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -28,9 +39,9 @@ ee.Initialize()
 
 
 #Initial date of interest(inclusive)and final date of interest (exclusive)
-start = '2017-03-28'                                     #First S2 L2A image date
+#start = '2017-03-28'                                     #First S2 L2A image date
 #start = '2020-09-01'   
-end   = '2021-12-31'                                     #2017-05-12 starts frequency of 10 days
+#end   = '2021-12-31'                                     #2017-05-12 starts frequency of 10 days
                                                          #2017-12-18 starts frequency of 5 days
 time  = [start, end]
 

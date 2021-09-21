@@ -1,6 +1,6 @@
 {
 
-  "image": "mafmonjaraz/eshapegee",
+  "image": "mafmonjaraz/eshapegeeconf",
   "privateimage": false,
   "resources": {
     "memory_mb": "5000",

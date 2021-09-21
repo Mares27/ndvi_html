@@ -9,7 +9,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "configuration/configuration.conf"
+      "target": "DNP_e_shape_configuration.cfg"
  }
   ],
  "outputs": [
